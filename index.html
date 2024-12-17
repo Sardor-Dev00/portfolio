@@ -10,14 +10,14 @@
 <body>
   <!-- Header section -->
 
-  <div class="container">
     <header class="main-header">
-      <div class="main-header__brand">
+      <div class="container">
+        <div class="main-header__brand">
         <a href="index.html">
           <img src="images/logo.png" alt="Logo">
         </a>
-      </div>
-      <nav class="main-navigation">
+        </div>
+        <nav class="main-navigation">
         <ul class="main-navigation__items">
           <li class="main-navigation__item active">
             <a href="#">Home</a>
@@ -41,7 +41,8 @@
             <a href="#">Partners</a>
           </li>
         </ul>
-      </nav>
+        </nav>
+      </div>
     </header>
   </div>
 
@@ -231,9 +232,67 @@
 
    <!-- Portfolio section -->
 
-   <section id="portfolio">
-    <h1>Portfolio</h1>
-   </section>
+   <div class="container">
+    <section id="portfolio" class="portfolio">
+      <div class="section-subtitle">
+          Our portfolio
+          <span class="blur-line"></span>
+      </div>
+      <div class="section-title">
+        Check our recent <br>
+        Client work
+      </div>
+      <ul class="portfolio-filters">
+        <li class="active">
+          All
+        </li>
+        <li>
+          Popular
+        </li>
+        <li>
+          Latest
+        </li>
+      </ul>
+      <div class="portfolio-items">
+        <div class="portfolio-item portfolio-item-1"> 
+          <img src="images/portfolio-1.jpg" class="portfolio-item__image"  alt="Portfolio image 1">
+          <div class="portfolio-item__overlay"></div>
+          <div class="portfolio-item__info">
+            <h4>
+              <a href="#">Portfolio item 1</a>
+            </h4>
+            <p>
+              About our work
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-item portfolio-item-2">
+          <img src="images/portfolio-2.jpg" class="portfolio-item__image"  alt="Portfolio image 2">
+          <div class="portfolio-item__overlay"></div>
+          <div class="portfolio-item__info">
+            <h4>
+              <a href="#">Portfolio item 2</a>
+            </h4>
+            <p>
+              About our work
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-item portfolio-item-3">
+          <img src="images/portfolio-3.jpg" class="portfolio-item__image"  alt="Portfolio image 3">
+          <div class="portfolio-item__overlay"></div>
+          <div class="portfolio-item__info">
+            <h4>
+              <a href="#">Portfolio item 3</a>
+            </h4>
+            <p>
+              About our work
+            </p>
+          </div>
+        </div>
+      </div>
+     </section>
+   </div>
 
    <!-- /Portfolio section -->
 
