@@ -102,7 +102,7 @@
 
 
 .about-me__description {
-  font-size: 0.87rem /* 14 / 16 = 0.87rem */
+  font-size: 0.87rem; /* 14 / 16 = 0.87rem */
   font-weight: 300;
   color: #797979;
   line-height: 1.69rem; /* 27 / 16 = 1.69rem */
