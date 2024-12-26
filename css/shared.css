@@ -150,6 +150,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  transition: all 0.3s ease-in-out;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto
@@ -180,6 +184,8 @@ body {
 }
 
 .button {
+  transition: all 0.3s ease-in-out;
+  font-family: inherit;
   border: none;
   background: linear-gradient(to right, #1345e6, #ed239f 51%, #1345e6 100%);
   background-size: 200% auto;
